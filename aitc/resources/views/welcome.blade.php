@@ -9,8 +9,8 @@
     @vite(['resources/css/app.css', 'resources/css/fonts.css', 'resources/js/main.js'])
 </head>
 <body>
-    <header class="py-7 px-20 mx-auto fixed w-full z-10">
-        <nav class="flex justify-between mx-auto backdrop-blur-sm">
+    <header class="py-4 px-20 fixed w-full z-10">
+        <nav class="flex justify-between backdrop-blur-sm rounded-lg">
             <div class="flex gap-3 items-center">
                 <img class="h-[60px] w-14" src="../assets/logo.png" alt="logo">
                 <h2 class="text-base merriweather-bold">Soto Nusantara</h2>
@@ -25,7 +25,7 @@
             </div>
         </nav>
     </header>
-    <main class="pb-7 pt-[120px] px-20">
+    <main class="pb-7 pt-[110px] px-20">
         <section id="home" class="flex gap-6 items-center justify-center">
             <div class="w-1/2">
                 <div class="flex flex-col gap-4">
