@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +9,8 @@
     @vite(['resources/css/app.css', 'resources/css/fonts.css', 'resources/js/main.js'])
 </head>
 <body>
-    <header class="py-7 px-20">
-        <nav class="flex justify-between">
+    <header class="py-7 px-20 mx-auto fixed w-full z-10">
+        <nav class="flex justify-between mx-auto backdrop-blur-sm">
             <div class="flex gap-3 items-center">
                 <img class="h-[60px] w-14" src="../assets/logo.png" alt="logo">
                 <h2 class="text-base merriweather-bold">Soto Nusantara</h2>
@@ -24,7 +24,9 @@
                 <a class="text-base font-normal" href="">Kontak</a>
             </div>
         </nav>
-        <section id="home" class="flex gap-6 items-center justify-center mt-6">
+    </header>
+    <main class="pb-7 pt-[120px] px-20">
+        <section id="home" class="flex gap-6 items-center justify-center">
             <div class="w-1/2">
                 <div class="flex flex-col gap-4">
                     <div class="flex flex-col gap-1">
@@ -39,8 +41,6 @@
                 <img class="rounded-tl-3xl rounded-br-3xl rounded-bl-2xl rounded-tr-2xl translasi" src="/assets/soto_1.jpg" alt="">
             </div>
         </section>
-    </header>
-    <main class="py-7 px-20">
         <section id="menu-kami" class="">
             <div class="flex gap-8 items-center">
                 <h1 class="abril-fatface-regular text-primary text-5xl">__ Menu Kami</h1>
